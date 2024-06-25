@@ -3,5 +3,47 @@
 /* 
 Paleta de cores:
 verde: #49a09d
-lilas: #5f2c82
+lilas: #552874
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #552874;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.479);
+}
+
+#login > #imagem {
+    background: #552874 url("../imagens/background.jpg") no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+#login > #formulario {
+    
+}
