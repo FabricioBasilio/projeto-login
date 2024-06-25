@@ -36,14 +36,18 @@ section#login {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.479);
+    transition: width .2s, height .2s;
+    transition-timing-function: linear;
 }
 
 #login > #imagem {
+    display: block;
     background: #552874 url("../imagens/background.jpg") no-repeat;
     background-size: cover;
     height: 200px;
 }
 
 #login > #formulario {
-    
+    display: block;
+    padding: 10px;
 }
