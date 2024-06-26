@@ -32,7 +32,7 @@ section#login {
     transform: translate(-50%, -50%);
     background-color: white;
     width: 300px;
-    height: 400px;
+    height: 450px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.479);
@@ -40,14 +40,63 @@ section#login {
     transition-timing-function: linear;
 }
 
-#login > #imagem {
+#login>#imagem {
     display: block;
     background: #552874 url("../imagens/background.jpg") no-repeat;
     background-size: cover;
     height: 200px;
 }
 
-#login > #formulario {
+#login>#formulario {
     display: block;
     padding: 10px;
+}
+
+#login>#formulario h1 {
+    text-align: center;
+}
+
+#formulario div.campo {
+    background-color: #552874;
+    margin: 9px 0;
+    padding: 5px;
+}
+
+#formulario div.campo>label {
+    display: none;
+}
+
+
+#formulario>form>input {
+    display: block;
+    width: 100%;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#formulario>form>input:hover {
+    background-color: #377976;
+}
+
+#formulario>form>a {
+    display: block;
+    width: 100%;
+    border: solid #49a09d 1px;
+    text-align: center;
+    padding: 10px;
+    font-size: .9rem;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #49a09d;
+    background-color: white;
+}
+
+#formulario>form>a:hover {
+    background-color: #49a09d;
+    color: white;
 }
